@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.background video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CONTAINER */
+.form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.form .judul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .judul h1{
+    font-size: 30px;
+}
+.form form {
+    margin: 0 20px;
+}
+.form form input {
+    width: 100%;
+    border-radius: 50px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid grey;
+}
+.form form .form-username {
+    width: 100%;
+    height: 75px;
+} 
+.form form .form-password {
+    width: 100%;
+    height: 75px;
+}
+.form form .link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form form .link a {
+    font-size: 14px;
+    text-decoration: none;
+    color: purple;
+}
+.form form .link a:hover {
+    text-decoration: underline;
+}
+.form form .tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+.form form .tombol button {
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.form .footer {
+    font-size: 13px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+}
+.form p {
+    margin: 0 55px;
+}
+/* FORM */
